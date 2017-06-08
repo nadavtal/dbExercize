@@ -1,0 +1,13 @@
+{
+    "name": "upsite/developer-test",
+    "require": {
+        "usmanhalalit/pixie": "^2.0",
+        "simple-validator/simple-validator": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Tomer Ofer",
+            "email": "tomerof@upsite.co.il"
+        }
+    ]
+}
