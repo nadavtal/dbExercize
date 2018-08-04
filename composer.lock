@@ -1,24 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "d97985ed25d372866dcb6cf4e840f8c5",
     "content-hash": "45a9c1e89ef67e418f626d8a3a436dc5",
     "packages": [
         {
             "name": "simple-validator/simple-validator",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cangelis/simple-validator.git",
-                "reference": "fef7b81a080f3a6747c3506b22f67849ae0fb6f0"
+                "reference": "87aabf6a667cbea92efc2f88e2eea2a4121a6472"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cangelis/simple-validator/zipball/fef7b81a080f3a6747c3506b22f67849ae0fb6f0",
-                "reference": "fef7b81a080f3a6747c3506b22f67849ae0fb6f0",
+                "url": "https://api.github.com/repos/cangelis/simple-validator/zipball/87aabf6a667cbea92efc2f88e2eea2a4121a6472",
+                "reference": "87aabf6a667cbea92efc2f88e2eea2a4121a6472",
                 "shasum": ""
             },
             "require": {
@@ -36,12 +35,12 @@
             ],
             "authors": [
                 {
-                    "name": "Can Gelis",
+                    "name": "Can Geliş",
                     "email": "geliscan@gmail.com"
                 }
             ],
             "description": "Yet another validation class for PHP",
-            "time": "2017-05-09 08:17:01"
+            "time": "2017-06-29T10:09:43+00:00"
         },
         {
             "name": "usmanhalalit/pixie",
@@ -97,7 +96,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2016-04-08 10:58:01"
+            "time": "2016-04-08T10:58:01+00:00"
         },
         {
             "name": "usmanhalalit/viocon",
@@ -144,7 +143,7 @@
                 "ioc",
                 "test"
             ],
-            "time": "2013-07-13 19:54:56"
+            "time": "2013-07-13T19:54:56+00:00"
         }
     ],
     "packages-dev": [],

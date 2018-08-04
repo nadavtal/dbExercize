@@ -2,18 +2,17 @@
 
 $dbConfig = array(
     'driver'    => 'sqlite',
-    'database'  => 'contact-form.sqlite'
+    'database'  => 'chinook.db'
 );
 
 $connection = new \Pixie\Connection('sqlite', $dbConfig);
 $qb = new \Pixie\QueryBuilder\QueryBuilderHandler($connection);
 
 $qb->query("
-  CREATE TABLE IF NOT EXISTS contacts (
+  CREATE TABLE IF NOT EXISTS tests (
     id integer PRIMARY KEY,
-    name text NOT NULL,
+    fname text NOT NULL,
     phone text NOT NULL,
-    email text NOT NULL,
-    message text NOT NULL DEFAULT ''
-  )
+    email text NOT NULL
+    )
 ");
